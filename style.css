@@ -18,7 +18,15 @@ section {
     flex-grow: 1;
 }
 
+.artikel-container {
+    height: 250px;
+    width: 250px;
+    border-radius: 8px;
+    background-color: lightblue;
+}
+
 footer {
-    background-color: bisque;
-    padding: 30px;
+    background-color: violet;
+    font-style: bold;
+    padding: 24px;
 }
