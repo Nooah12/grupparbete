@@ -7,3 +7,10 @@
     border-radius: 8px;
     background-color: lightblue;
 }
+
+
+footer {
+    background-color: violet;
+    font-style: bold;
+    padding: 24px;
+}
