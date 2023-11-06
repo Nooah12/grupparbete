@@ -1,6 +1,23 @@
-.branch {
-    background-color: aqua;
+html {
+    height: 100vh;
 }
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    background-color: beige;
+    padding: 30px;
+}
+
+section {
+    background-color: aliceblue;
+    flex-grow: 1;
+}
+
 .artikel-container {
     height: 250px;
     width: 250px;
@@ -8,9 +25,10 @@
     background-color: lightblue;
 }
 
-
 footer {
     background-color: violet;
     font-style: bold;
     padding: 24px;
+    height: 150px;
+    width: 150px;
 }
